@@ -1,0 +1,17 @@
+{
+  "apps": [
+    {
+      "name": "DiaAuction",
+      "script": "index.js",
+      "cwd": ".",
+      "pid_file": "./pids/autoBuy.app.pid",
+      "out_file": "./logs/autoBuy.app.log",
+      "error_file": "./logs/autoBuy.app.error",
+      "log_date_format": "YYYY-MM-DD HH:mm:ss SSS",
+      "watch": false,
+      "kill_timeout": 10000,
+      "max_memory_restart": "512M",
+      "node_args": "--max_old_space_size=512"
+    }
+  ]
+}
