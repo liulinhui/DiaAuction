@@ -1,9 +1,9 @@
 ## 安装nodejs
-``shell
+```shell
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 sudo apt-get install -y nodejs
-``
+```
 
 ## 安装依赖
 ```nodejs
